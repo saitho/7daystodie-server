@@ -1,6 +1,7 @@
 # 7 Days to Die Server on Docker
 
 Runs a 7DtD server inside a Docker container. The server will be exposed onto port 26900.
+The save files will be saved in a mounted directory. The path inside the container is: */home/steam/.local/share/7DaysToDie/Saves/*
 
 ## Known errors
 
